@@ -1,0 +1,13 @@
+HW4 - part 3:
+
+First question:
+B-Tree is a self-balancing search tree. The time complexity of the insertion algorithm is O(log n).
+For 3 values (x, y, z), 3 separate nodes will be used. Hence the cost is multiplied by 3.
+
+It can be said that the complexity of insertion operation for this structure is O(3*log n) => O(log n).
+
+Second question:
+This structure consists of the values inside the nodes in nested, balanced trees, so that complexity of insertion in those nodes will remain in log(n).
+(Finding the mini B -tree to insert)  + (Insert into a mini B -tree) = (log n) + (log n) => O(2*log n) => O(log n).
+
+Beyza Ozan
